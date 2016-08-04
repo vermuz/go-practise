@@ -20,8 +20,8 @@ func main() {
 	// of that index
 	// n -> name
 	// _ -> throw away the index value
-	// _ -> Go's way of letting us capturing something and 
-	// throwing it away
+	// _ -> Go's way of letting us capture something and 
+	// throw it away
 	for _, n := range names {
 		fmt.Println("Hello, " + n)
 	}
